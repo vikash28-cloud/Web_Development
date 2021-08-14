@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center><h1>Vikash Sharma Information Portal</h1></center>
+    <form action="backend.php">
+        <div>
+            Name: <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Email:<input type="myEmail" name="">
+        </div>
+        <br>
+        <div>
+            Password: <input type="password" name="myPassword">
+        </div>
+        <br>
+        <div>
+           Contact:<input type="int" name="myContact" >
+        </div>
+        <br>
+        <div>
+            Address:<input type="address" name="myAddress">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number" name="myAge" >
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="myDate" >
+        </div>
+        <br>
+        <div>
+            File: <input type="file" src="" alt="error">
+        </div>
+        <br>
+        <div>
+            <label for="gender">
+                Gender: Male<input type="radio" name="myGender" id="gender"> Female <input type="radio" name="myGender" id="gender"> Other <input type="radio" name="myGender" id="gender">
+            </label>
+            
+        </div>
+        <br>
+        <div>
+            <label for="country">
+                COUNTRY: <select name="myCountry" id="country">
+                    <option value="sel" selected>select--</option>
+                    <option value="IND">India</option>
+                    <option value="U.S">America</option>
+                    <option value="U.K">England</option>
+                    <option value="GER">Germany</option>
+                    <option value="FR">France</option>
+                </select>
+            </label>
+            
+        </div>
+        <br>
+        <div>
+            Wirite about yourself:
+            <br><textarea name="myText" id="" cols="50" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="check">
+                Accept Terms and Conditions: <input type="checkbox" name="myEligibility" id="check" >
+            </label>
+           
+        </div>
+        <br>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+        <br>
+
+        
+    </form>
+    
+</body> 
+</html>
